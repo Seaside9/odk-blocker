@@ -1,5 +1,5 @@
 chrome.webRequest.onBeforeRequest.addListener(
-  (details) => ({cancel: true}),
+  () => ({cancel: true}),
   {urls:
     ["*://*.doubleclick.net/*",
     "*://*.doubleclick.com/*",

@@ -6,6 +6,5 @@
   "background": {
     "scripts": ["block.js"]
   },
-
   "manifest_version": 2
 }
