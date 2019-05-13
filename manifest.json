@@ -1,0 +1,11 @@
+{
+  "name": "ODK Blocker",
+  "version": "0.0.1",
+  "description": "blocks ads",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["block.js"]
+  },
+
+  "manifest_version": 2
+}
